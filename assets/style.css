@@ -1,0 +1,189 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 10%;
+  /* height: 100vh; */
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: rgb(211, 111, 111);
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 10%;
+  text-align: center;
+  margin: 0;
+}
+
+.title {
+  justify-content: flex-start;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(214, 93, 93);
+  align-self: flex-start;
+}
+
+.item {
+  margin-right: 3rem;
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.home {
+  margin-right: 3rem;
+  font-size: 1rem;
+  color: black;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-img {
+  text-align: center;
+}
+
+.homeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.main-text {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.name {
+  color: white;
+}
+
+.fitness-info__home {
+  background-color: rgba(40, 90, 165, 0.402);
+  color: white;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 25vh; */
+  gap: 5%;
+}
+
+.fitness-info__home p {
+  font-size: 1.2rem;
+}
+
+.fitness-info {
+  background-color: rgba(40, 90, 165, 0.402);
+  color: white;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10%;
+  justify-content: space-around;
+}
+
+.fitness-info__ingredients ul li p {
+  font-size: 1.2rem;
+}
+
+.fitness-info__prep {
+  width: 100%;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fitness-info__prep-container {
+  width: 70%;
+}
+
+.fitness-info__prep p {
+  font-size: 1.2rem;
+  letter-spacing: 0.01rem;
+  word-spacing: 0.1rem;
+  line-height: 2rem;
+  font-weight: 200;
+}
+
+.instructions {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  font-size: 1.2rem;
+}
+
+.fitness-info h1 {
+  color: white !important;
+}
+
+.fitness-start {
+  margin-bottom: 30px;
+}
+
+.source {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.recipe-container {
+  height: 100%;
+}
+
+.recipe ul li {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.161);
+  padding: 8px;
+  color: rgb(3, 3, 3);
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .fitness-info {
+    height: 100vh;
+  }
+
+  .main-text p {
+    font-size: 12rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
